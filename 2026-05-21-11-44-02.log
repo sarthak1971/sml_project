@@ -1,0 +1,7 @@
+2026-05-21 11:44:02,974 - DEBUG - Detailed diagnostic information.
+2026-05-21 11:44:02,974 - INFO - Confirmation that things are working.
+2026-05-21 11:44:02,974 - WARNING - An unexpected issue occurred.
+2026-05-21 11:44:05,415 - INFO - Data ingestion process has started.
+2026-05-21 11:44:05,431 - INFO - Dataset read successfully from artifacts\raw_data.csv.
+2026-05-21 11:44:05,444 - INFO - Raw data saved successfully to artifacts\raw_data.csv.
+2026-05-21 11:44:05,454 - INFO - Train and test data saved successfully to artifacts\train_data.csv and artifacts\test_data.csv.
