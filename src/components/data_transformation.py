@@ -14,17 +14,19 @@ from sklearn.compose import ColumnTransformer
 from src.logger import logging
 from src.custom_exception import CustomException
 from dataclasses import dataclass
-import SimpleImputer
+from sklearn.impute import SimpleImputer
 
 @dataclass
 class DataTransformationConfig():
     preprocessor_obj_file_path: str = os.path.join('artifacts', 'preprocessor.pkl')
-    def __init__(self):
+    def __init__(self,train_df, test_df):
         self.preprocessor_config = DataTransformationConfig()
+        self.train_df = train_df
+        self.test_df = test_df
     def get_data_transformer_object(self):
         try:
-            num_col = train_df.select_dtypes(include=[np.number]).columns
-            cat_col = train_df.select_dtypes(include=['object']).columns
+            num_col = self.train_df.select_dtypes(include=[np.number]).columns
+            cat_col = self.train_df.select_dtypes(include=['object']).columns
             ## numerical pipeline
             num_pipe = Pipeline(steps=[
                 ('imputer', SimpleImputer(strategy='median')),
