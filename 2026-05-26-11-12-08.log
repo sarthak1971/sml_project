@@ -1,0 +1,46 @@
+2026-05-26 11:12:08,820 - DEBUG - Detailed diagnostic information.
+2026-05-26 11:12:08,820 - INFO - Confirmation that things are working.
+2026-05-26 11:12:08,820 - WARNING - An unexpected issue occurred.
+2026-05-26 11:16:27,022 - DEBUG - Detailed diagnostic information.
+2026-05-26 11:16:27,023 - INFO - Confirmation that things are working.
+2026-05-26 11:16:27,023 - WARNING - An unexpected issue occurred.
+2026-05-26 11:19:20,705 - DEBUG - Detailed diagnostic information.
+2026-05-26 11:19:20,705 - INFO - Confirmation that things are working.
+2026-05-26 11:19:20,705 - WARNING - An unexpected issue occurred.
+2026-05-26 11:19:44,667 - DEBUG - Detailed diagnostic information.
+2026-05-26 11:19:44,669 - INFO - Confirmation that things are working.
+2026-05-26 11:19:44,673 - WARNING - An unexpected issue occurred.
+2026-05-26 11:19:47,502 - INFO - Model trainer pipeline is initiated
+2026-05-26 11:19:47,504 - INFO - Data ingestion process has started.
+2026-05-26 11:19:47,585 - INFO - Dataset read successfully from artifacts\raw_data.csv.
+2026-05-26 11:19:47,598 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 40 with error message: [Errno 28] No space left on device
+2026-05-26 11:19:47,741 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 40 with error message: [Errno 28] No space left on device
+2026-05-26 11:19:47,747 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\pipeline\trainer_pipeline.py at line: 14 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 40 with error message: [Errno 28] No space left on device
+2026-05-26 11:20:34,834 - INFO - Model trainer pipeline is initiated
+2026-05-26 11:20:34,836 - INFO - Data ingestion process has started.
+2026-05-26 11:20:34,839 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:20:34,888 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:20:34,893 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\pipeline\trainer_pipeline.py at line: 14 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:21:44,127 - INFO - Model trainer pipeline is initiated
+2026-05-26 11:21:44,130 - INFO - Data ingestion process has started.
+2026-05-26 11:21:44,134 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:21:44,138 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:21:44,143 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\pipeline\trainer_pipeline.py at line: 14 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:22:16,172 - INFO - Model trainer pipeline is initiated
+2026-05-26 11:22:16,176 - INFO - Data ingestion process has started.
+2026-05-26 11:22:16,179 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:22:16,183 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:22:16,189 - ERROR - Error occurred in file: C:\Users\sarth\sml_project\src\pipeline\trainer_pipeline.py at line: 14 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\model_trainer.py at line: 25 with error message: Error occurred in file: C:\Users\sarth\sml_project\src\components\data_ingestion.py at line: 37 with error message: No columns to parse from file
+2026-05-26 11:27:30,664 - INFO - Model trainer pipeline is initiated
+2026-05-26 11:27:30,666 - INFO - Data ingestion process has started.
+2026-05-26 11:27:30,672 - INFO - Dataset read successfully from artifacts\raw_data.csv.
+2026-05-26 11:27:30,680 - INFO - Raw data saved successfully to artifacts\raw_data.csv.
+2026-05-26 11:27:30,726 - INFO - Train and test data saved successfully to artifacts\train_data.csv and artifacts\test_data.csv.
+2026-05-26 11:27:30,748 - INFO - Read train and test data successfully
+2026-05-26 11:27:30,757 - INFO - Numerical and categorical pipelines created successfully
+2026-05-26 11:27:31,220 - INFO - Data transformation completed successfully
+2026-05-26 11:27:31,234 - INFO - Model training is completed successfully
+2026-05-26 11:27:31,237 - INFO - Model evaluation is completed successfully with r2 score: 0.9827845916637286
+2026-05-26 11:27:31,239 - INFO - Trained model saved at path: artifacts\model.pkl
+2026-05-26 11:27:31,239 - INFO - Model trainer pipeline is completed successfully
+2026-05-26 11:27:42,472 - INFO - Trained model loaded successfully for prediction
