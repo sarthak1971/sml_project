@@ -20,7 +20,7 @@ class ModelTrainerconfig():
         try:
             data_injestion = DataIngestion()
             input_feature_train_arr, target_feature_train_arr, input_feature_test_arr, target_feature_test_arr, preprocessor_obj = DataTransformation().initiate_data_transformation()
-            model = DecisionTreeRegressor()
+            model = DecisionTreeRegressor(ccp_alpha=0.01, max_depth=20, min_samples_leaf=1, min_samples_split=2)
             model.fit(input_feature_train_arr, target_feature_train_arr)
             logging.info("Model training is completed successfully")
 
